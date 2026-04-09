@@ -1,9 +1,11 @@
 import React from "react";
 import Route from "./routes/Route";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 text-orange-500">
+    <div className="w-full h-screen ">
+      <Navbar />
       <Route />
     </div>
   );
