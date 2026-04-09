@@ -56,7 +56,7 @@ const Navbar = () => {
           </li>
         </ul>
         {isOpen && (
-          <div className="absolute w-2/3 right-0 h-[calc(100vh-70px)] top-[70px] bg-primary">
+          <div className="absolute w-2/3 right-0 h-[calc(100vh-70px)] top-[70px] bg-primary z-50">
             <ul className="w-full flex flex-col items-center justify-center gap-12 font-bold text-xl p-[30px]">
               <li>
                 <NavLink
