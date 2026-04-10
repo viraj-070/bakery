@@ -4,3 +4,25 @@
     --color-primary: #1E1916;
     --color-accent: #D18904;
 }
+
+::-webkit-scrollbar {
+    width: 1rem;
+    background-color: rgba(0, 0, 0, 0.872); 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333;
+    border-radius: 100vw;
+
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+    border: .19em solid #333;
+    background-color: rgb(176, 115, 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: orange;
+}
