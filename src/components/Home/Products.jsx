@@ -194,7 +194,7 @@ const Products = () => {
 
   return (
     <div className="w-full h-fit px-4 md:px-0 py-9 max-w-7xl mx-auto ">
-      <h1 className="text-5xl font-extrabold text-accent border-b-4 border-accent text-center mt-7 md:mt-12 w-fit mx-auto pb-2">
+      <h1 className="text-5xl font-extrabold text-accent border-b-4 border-accent text-center mt-7 md:mt-4 w-fit mx-auto pb-2">
         Products
       </h1>
 
