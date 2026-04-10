@@ -5,6 +5,10 @@
     --color-accent: #D18904;
 }
 
+body{
+    background-color: #212529
+}
+
 ::-webkit-scrollbar {
     width: 1rem;
     background-color: rgba(0, 0, 0, 0.872); 
